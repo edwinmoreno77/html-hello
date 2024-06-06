@@ -1,4 +1,4 @@
-
+/* BODY AND HEADER  */
 body{
     background: rgb(177, 177, 177);
     margin: 0;
@@ -12,7 +12,10 @@ header{
 header h1{
     margin: 0;
 }
+/* BODY AND HEADER  */
 
+
+/* CONTAINER AND POST  */
 div.container{
     width: 600px;
     margin: auto;
@@ -21,8 +24,15 @@ div.container{
 section.post{
     background: white;
     margin:auto;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     border-radius: 4px;
+    }
+    
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
 }
 
 section.post img{
@@ -35,17 +45,15 @@ section.post h2, section.post p{
     margin: 0;
 }
 
-.post-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-}
-
 .post-header span:last-child{
     color:gray;
     margin-right: 10px;
 }
+/* CONTAINER AND POST  */
+
+
+
+/* ICONS */
 div.container-icons{
     display: flex;
     justify-content: space-between;
@@ -53,6 +61,7 @@ div.container-icons{
     margin: 2px 5px;
     padding:2px 5px;
 }
+
 div.icons-left span{
     margin: 2px
 }
@@ -78,3 +87,4 @@ div.icons-right span:hover{
     cursor: pointer;
     color:green;
 }
+/* ICONS */
