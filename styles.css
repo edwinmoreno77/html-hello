@@ -1,0 +1,80 @@
+
+body{
+    background: rgb(177, 177, 177);
+    margin: 0;
+}
+header{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+header h1{
+    margin: 0;
+}
+
+div.container{
+    width: 600px;
+    margin: auto;
+}
+
+section.post{
+    background: white;
+    margin:auto;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+section.post img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+section.post h2, section.post p{
+    padding:10px;
+    margin: 0;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.post-header span:last-child{
+    color:gray;
+    margin-right: 10px;
+}
+div.container-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 5px;
+    padding:2px 5px;
+}
+div.icons-left span{
+    margin: 2px
+}
+
+div.icons-left span:hover{
+    cursor: pointer;
+    color:red;
+}
+div.icons-left span:last-child:hover{
+    cursor: pointer;
+    color:green;
+}
+div.icons-left span:nth-child(2):hover{
+    cursor: pointer;
+    color:rgb(69, 69, 255);
+}
+
+div.icons-right span{
+    margin: 2px
+}
+
+div.icons-right span:hover{
+    cursor: pointer;
+    color:green;
+}
